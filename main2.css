@@ -1,0 +1,30 @@
+body {
+    /* all */
+    /* margin: 0; */
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+    /* top+bottom left+right */
+    /* margin: 10px 5px; */
+    /* top - right - bottom - left */
+    /* margin: 10px 5px 3px 1px; */
+    /* margin: 10px 5px 3px; */
+    margin: unset;
+}
+/* px em rem % */
+
+div {
+    width: 50px;
+    height: 50px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
