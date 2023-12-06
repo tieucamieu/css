@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+h1 {
+    color: green;
+}
+
+span {
+    font-size: 50px;
+    color: pink;
+    font-weight: 900;
+    font-family: 'Beau Rivage', cursive;
+}
+
+.ClassSelect {
+    color: violet;
+}
+
+.ClassSelect.active {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+#IdSelect {
+    color: brown;
+}
+
+#IdSelect:hover {
+    color: greenyellow;
+}
+
+.test {
+
+}
+
+.test > span {
+    color:aqua;
+}
+
+.test > p {
+    color:chocolate;
+}
+
+
+.test > .testH2 {
+    color: darkblue;
+}
+
+.abx {
+    color: red !important; 
+}
+
+.abid {
+    
+}
+
+/* * {
+    font-size: 1000px;
+} */
+
+.ClassSelect:first-child {
+    color: blanchedalmond;
+}
+
+
+.ClassSelect:last-child {
+    color: red;
+}
+
+.ClassSelect:nth-child(2) {
+    color: green;
+}
